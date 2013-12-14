@@ -124,6 +124,8 @@ informative:
 
 Leaks of classified documents in 2013 have revealed several classes of "pervasive" attack on Internet communications.  In this document, we review the main attacks that have been published, and develop a threat model that describes these pervasive attacks.  Based on this threat model, we discuss the techniques that can be employed in Internet protocol design to increase the protocols robustness to pervasive attacks.
 
+CJ Note: Overall I think we need to be careful to separate what we know to be true from what has been reported in the press. 
+
 --- middle
 
 # Introduction
