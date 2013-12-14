@@ -158,7 +158,7 @@ Unwitting Collaborator:
 
 # Reported Instances of Large-Scale Attacks {#reported}
 
-Through recent revelations of sensitive documents in several media outlets, the Internet community has been made aware of several intelligence activites conducted by US and UK national intelligence agencies, particularly the US National Security Agency (NSA) and the UK Government Communications Headquarters (GCHQ).  These documents have revealed the methods that these agencies use to attack Internet applications and obtain sensitive user information. 
+Through recent revelations of sensitive documents in several media outlets, the Internet community has been made aware of several intelligence activites conducted by US and UK national intelligence agencies, particularly the US National Security Agency (NSA) and the UK Government Communications Headquarters (GCHQ).  These documents have revealed the methods that these agencies use to attack Internet applications and obtain sensitive user information. Theses documents sugest the following types of attacks have occurred:
 
 * Large scale passive collection of Internet traffic {{pass1}}{{pass2}}{{pass3}}{{pass4}}.  For example, the NSA XKEYSCORE system gathers data from multiple access points and searches for "selectors" such as email addresses, at the scale of tens of terabytes of data per day.  The GCHQ Tempora system appears to have access to around 1,500 major cables passing through the UK.
 
