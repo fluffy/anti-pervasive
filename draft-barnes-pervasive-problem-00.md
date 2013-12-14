@@ -264,6 +264,9 @@ In this section, we discuss a collection of high-level approaches to mitigating 
 | Content exfiltration      | Object encryption, distributed systems  |
 
 
+CJ Note: I think we are lacking some text on End to Middle encryption (such as two users chatting using Facebook using HTTPS) vs End to End encryptions (two users chatting over data channel in WebRTC). I think we need to make the point that E2E Encryption solves a different class of attack from E2M but that E2M is still useful. 
+
+
 The traditional mitigation to passive attack is to render content unintelligible to the attacker by applying encryption, for example, by using TLS or IPsec {{RFC5246}}{{RFC4301}}.  Even without authentication, encryption will prevent a passive attacker from being able to read the encrypted content.  Exploiting unauthenticated encryption requires an active attack (man in the middle); with authentication, a key exfiltration attack is required.
 
 The additional capabilities of a pervasive passive attacker, however, require some changes in how protocol designers evaluate what information is encrypted.  In addition to directly collecting unencrypted data, a pervasive passive attacker can also make inferences about the content of encrypted messages based on what is observable.  For example, if a user typically visits a particular set of web sites, then a pervasive passive attacker observing all of the user's behavior can track the user based on the hosts he communicates with, even if he changes IP addresses, and even if all of the connections are encrypted.  
