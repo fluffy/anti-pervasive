@@ -199,14 +199,13 @@ In order to succeed in this goal, an attacker needs two main things.  First, he 
 
 Security analyses of Internet protocols commonly consider two classes of attacker: Passive attackers, who can simply listen in on communications as they transit the network, and "active attackers", who can modify or delete packets in addition to simply collecting them.  
 
-In the context of pervasive attack, these attacks take on an even greater significance.  A passive attacker with access to a large portion of the Internet can analyze collected traffic to create a much more detailed view of user behavior than an attacker that collects at a single point.  Even the usual claim that encryption defeats passive attackers is weakened, since a pervasive passive attacker can examine correlations over large numbers of sessions, e.g., pairing encrypted sessions with unencrypted sessions from the same host.
-The NSA XKEYSCORE system would be an example of such an attacker.
+In the context of pervasive attack, these attacks take on an even greater significance.  A passive attacker with access to a large portion of the Internet can analyze collected traffic to create a much more detailed view of user behavior than an attacker that collects at a single point.  Even the usual claim that encryption defeats passive attackers is weakened, since a pervasive passive attacker can examine correlations over large numbers of sessions, e.g., pairing encrypted sessions with unencrypted sessions from the same host.  The reports on the NSA XKEYSCORE system would make it an example of such an attacker.
 
 A pervasive active attacker likewise has capabilities beyond those of a localized active attacker.  Active attacks are often limited by network topology, for example by a requirement that the attacker be able to see a targeted session as well as inject packets into it.  A pervasive active attacker with multiple accesses at core points of the Internet is able to overcome these topological limitations and apply attacks over a much broader scope.  Being positioned in the core of the network rather than the edge can also enable a pervasive active attacker to reroute targeted traffic.  Pervasive active attackers can also benefit from pervasive passive collection to identify vulnerable hosts.
 
 While not directly related to pervasiveness, attackers that are in a position to mount a pervasive active attack are also often in a position to subvert authentication, the traditional response to active attack.  Authentication in the Internet is often achieved via trusted third party authorities such as the Certificate Authorities (CAs) that provide web sites with authentication credentials.  An attacker with sufficient resources for pervasive attack may also be able to force an authority to grant credentials for an identity of the attacker's choosing, allowing the active attack to succeed where a weaker attacker would fail.
 
-Beyond these two classes, the BULLRUN effort to defeat encryption and the PRISM effort to obtain data from service providers suggest three more classes of attack:
+Beyond these two classes, reports on the BULLRUN effort to defeat encryption and the PRISM effort to obtain data from service providers suggest three more classes of attack:
 
 * Static key exfiltration
 * Dynamic key exfiltration
