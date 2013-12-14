@@ -7,6 +7,7 @@ all: txt html pdf
 txt: $(NAME).txt
 html: $(NAME).html
 pdf: $(NAME).pdf
+
 clean:
 	if [ -e $(NAME).xml  ]; then rm $(NAME).xml ; fi
 	if [ -e $(NAME).txt  ]; then rm $(NAME).txt ; fi
@@ -17,10 +18,10 @@ $(NAME).pdf: $(NAME).txt
 	$(CF) $(NAME).txt >$(NAME).pdf
 
 $(NAME).txt: $(NAME).xml
-	$(X2R) $(NAME).xml $(NAME).txt
+	$(X2R) $(NAME).xml --text 
 
 $(NAME).html: $(NAME).xml
-	$(X2R) $(NAME).xml $(NAME).html
+	$(X2R) $(NAME).xml --html
 
 $(NAME).xml: $(NAME).md
 	$(MD) <$(NAME).md >$(NAME).xml
