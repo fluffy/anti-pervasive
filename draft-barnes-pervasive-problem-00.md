@@ -12,7 +12,15 @@ author:
     name: Richard Barnes
     organization: BBN
     email: rlb@ipv.sx
-
+ - 
+   ins: C. Jennings
+   name: Cullen Jennings
+   org: Cisco
+   email: fluffy@cisco.com
+   street: 400 3rd Avenue SW
+   city: Calgary
+   code: T2P 4H2
+   country: Canada
 
 normative:
   RFC2119:
